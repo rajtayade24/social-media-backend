@@ -1,0 +1,93 @@
+  body {
+          font-family: Arial, sans-serif;
+          background-color: #fafafa;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+        }
+
+        .container {
+          width: 350px;
+          border: 1px solid #dbdbdb;
+          background: #fff;
+          padding: 40px 30px;
+          text-align: center;
+        }
+
+        .container h1 {
+          font-family: 'Billabong', cursive;
+          font-size: 48px;
+          margin-bottom: 20px;
+        }
+
+        .container input {
+          width: 100%;
+          padding: 10px;
+          margin: 6px 0;
+          border: 1px solid #dbdbdb;
+          border-radius: 3px;
+          font-size: 14px;
+        }
+
+        .container button {
+          width: 100%;
+          padding: 10px;
+          background-color: #3897f0;
+          border: none;
+          border-radius: 4px;
+          color: white;
+          font-weight: bold;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+
+        .container button:hover {
+          background-color: #3183d4;
+        }
+
+        .or-divider {
+          display: flex;
+          align-items: center;
+          margin: 15px 0;
+        }
+        .or-divider div {
+          flex: 1;
+          height: 1px;
+          background: #dbdbdb;
+        }
+        .or-divider span {
+          margin: 0 10px;
+          font-size: 12px;
+          color: #8e8e8e;
+          font-weight: bold;
+        }
+
+        .toggle-box {
+          width: 350px;
+          border: 1px solid #dbdbdb;
+          background: #fff;
+          margin-top: 10px;
+          padding: 20px;
+          text-align: center;
+        }
+        .toggle-box span {
+          color: #3897f0;
+          cursor: pointer;
+          font-weight: bold;
+        }
+
+        .hidden { display: none; }
+
+        .welcome {
+          background: #fff;
+          border: 1px solid #dbdbdb;
+          padding: 40px 30px;
+          text-align: center;
+        }
+        .logout-btn {
+          background: #ed4956;
+          margin-top: 15px;
+        }
