@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: social-media-backend
-    env: java
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
-    branch: main
