@@ -138,7 +138,8 @@ public class SecurityConfig {
                 "http://localhost:5500",
                 "http://127.0.0.1:5500",
                 "http://10.91.2.29:5173",
-                "http://10.91.2.29:5173/instagram-clone"
+                "http://10.91.2.29:5173/instagram-clone",
+                "https://social-media-frontend-nbdo.vercel.app"
 
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));

@@ -8,9 +8,19 @@ import org.springframework.messaging.handler.annotation.*;
 import org.springframework.messaging.simp.annotation.SendToUser;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Controller
 @RequiredArgsConstructor
+@CrossOrigin(origins = {
+        "http://localhost:5500",
+        "http://127.0.0.1:5500",
+        "http://localhost:5173",
+        "http://10.91.2.29:5173",
+        "http://10.91.2.29:5173/instagram-clone",
+        "https://social-media-frontend-nbdo.vercel.app",
+        "*"
+})
 public class StompMessageController {
 
     private final MessagingService messageService;

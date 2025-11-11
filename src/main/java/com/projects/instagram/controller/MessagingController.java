@@ -24,6 +24,7 @@ import java.util.Map;
         "http://localhost:5173",
         "http://10.91.2.29:5173",
         "http://10.91.2.29:5173/instagram-clone",
+        "https://social-media-frontend-nbdo.vercel.app",
         "*"
 })
 public class MessagingController {
